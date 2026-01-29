@@ -5,7 +5,7 @@ Angular app with an embedded BPMN modeler (bpmn-js). Load and edit BPMN diagrams
 ## Overview
 
 - **Auto-arrange** — Button to automatically arrange elements by lanes and topological rank (Manhattan-style layout).
-- **Line overlap prevention** — Sequence flows from the same source share the same start point, then fan out so lines do not overlap; drift is applied after the first segment. Collisions are resolved on connection change, shape move, and bendpoint move.
+- **Line overlap prevention** — Prevented line overlapping, even when the user attempts to force it.
 
 ## Setup
 
