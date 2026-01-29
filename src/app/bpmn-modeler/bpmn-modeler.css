@@ -1,0 +1,41 @@
+.modeler-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.canvas {
+  flex: 1;
+  height: 100%;
+  border-right: 1px solid #ccc;
+  position: relative;
+}
+
+.properties-panel {
+  width: 250px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: grab;
+  text-align: left;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button:active {
+  cursor: grabbing;
+}
